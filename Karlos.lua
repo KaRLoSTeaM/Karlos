@@ -1,4 +1,4 @@
-عن------------------------------------------------
+------------------------------------------------
 -- This Source Was Developed By (ABS) @hmadaa97.--
 --   This Is The Source Channel @Bg_88 .   --
 --                - Karlos -                 --
