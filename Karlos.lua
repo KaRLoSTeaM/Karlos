@@ -1,5 +1,5 @@
-------------------------------------------------
--- This Source Was Developed By (ABS) @hmadaa_97.--
+عن------------------------------------------------
+-- This Source Was Developed By (ABS) @hmadaa97.--
 --   This Is The Source Channel @Bg_88 .   --
 --                - Karlos -                 --
 --        -- https://t.me/Bg_88 --         --
@@ -126,7 +126,7 @@ print("\27[36m"..[[
 |   | |_| |  __/\ V /|  __/| | | (_) >  <   |
 |   |____/ \___| \_/ |_|   |_|  \___/_/\_\  |
 |-------------------------------------------|
-|This Source Was Developed By (ABS) @hmadaa_97.|
+|This Source Was Developed By (ABS) @hmadaa97.|
 |  This Is The Source Channel @Bg_88 .   |
 |               - Karlos -                 |
 ---------------------------------------------
@@ -4172,7 +4172,7 @@ Welcome To Source
 
 ⌁︙[Exp Channel](https://t.me/gi_mi1)
 
-⌁︙[Developer](https://t.me/hmadaa_97)
+⌁︙[Developer](https://t.me/hmadaa97)
 ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
 ⌁︙[Tws Bot](https://t.me/gi_mibot)
 ]]
@@ -10663,7 +10663,7 @@ end
 --     Source Karlos     --
 end 
 ------------------------------------------------
--- This Source Was Developed By (ABS) @hmadaa_97.--
+-- This Source Was Developed By (ABS) @hmadaa97.--
 --   This Is The Source Channel @Bg_88 .   --
 --                - Karlos -                 --
 --        -- https://t.me/Bg_88 --         --
